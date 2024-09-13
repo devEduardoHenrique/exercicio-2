@@ -1,0 +1,92 @@
+@charset "UTF-8" {
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+:root {
+  --font: "Sriracha", cursive;
+}
+
+body {
+  min-height: 100vh;
+  background-color: darkgray;
+  font-family: var(--font1);
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: var(--font3);
+}
+
+header > h1 {
+  padding-top: 50px;
+  font-variant: small-caps;
+  font-size: 10vh;
+}
+
+header > p {
+  padding-bottom: 50px;
+}
+
+header > P:hover {
+  text-decoration: underline;
+  transition: 1s;
+  background-color: red;
+}
+
+section {
+  padding: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  font-family: var(--font);
+  line-height: 3.5vw;
+  font-weight: 2em;
+}
+
+.normal {
+  background-color: white;
+  color: black;
+}
+
+.imagem {
+  background-color: rgb(66, 65, 65);
+  color: white;
+  box-shadow: inset 6px 6px 13px 0px black;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.imagem > p {
+  background-color: rgba(0, 0, 0, 0.589);
+  display: inline-block;
+  padding: 5px;
+  text-shadow: 1px 1px 0px black;
+}
+
+#img1 {
+  background-image: url("imagens/gatoemcima.jpg");
+  background-position: center center;
+}
+
+#img2 {
+  background-image: url("imagens/IMG-20240909-WA0018.jpg");
+  background-position: center center;
+}
+
+#img3 {
+  background-image: url("imagens/IMG-20240911-WA0000.jpeg");
+  background-position: center center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
